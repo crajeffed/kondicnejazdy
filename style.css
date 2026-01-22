@@ -25,17 +25,17 @@ body {
 .hero {
   position: relative;
   background-image:
-    linear-gradient(
-      rgba(0, 0, 0, 0.55),
-      rgba(0, 0, 0, 0.55)
-    ),
-    url("hero.jpg"); /* ← SEM PÔJDE FOTKA */
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("hero.png");
   background-size: cover;
   background-position: center;
   color: #fff;
   text-align: center;
-  padding: 100px 20px;   /* ⬅ ešte o polovicu užší */
+  min-height: 220px;
+  display: flex;
+  align-items: center;
 }
+
 
 .hero-content {
   max-width: 900px;
