@@ -20,25 +20,26 @@ body {
 
 .hero {
   background: linear-gradient(
-      rgba(31, 41, 51, 0.85),
-      rgba(31, 41, 51, 0.85)
+      rgba(31, 41, 51, 0.9),
+      rgba(31, 41, 51, 0.9)
     ),
     radial-gradient(circle at top, #374151, #1f2933);
   color: #fff;
   text-align: center;
-  padding: 90px 20px;
+  padding: 25px 20px;   /* ⬅ toto je kľúčové – zúženie */
 }
 
 
 .hero h1 {
-  font-size: 2.4rem;
-  margin-bottom: 15px;
+  font-size: 1.6rem;   /* bolo 2.4rem */
+  margin-bottom: 8px;
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
+  font-size: 1rem;
+  margin-bottom: 12px;
 }
+
 
 .btn {
   display: inline-block;
